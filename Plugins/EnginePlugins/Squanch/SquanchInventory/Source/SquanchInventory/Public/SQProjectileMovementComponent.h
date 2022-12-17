@@ -2,6 +2,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "UObject/NoExportTypes.h"
+#include "CustomEngine/DifficultyFloat.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=DifficultyFloat -FallbackName=DifficultyFloat
 #include "SQProjectileMovementComponent.generated.h"
 

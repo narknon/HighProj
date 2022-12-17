@@ -4,5 +4,5 @@
 
 class AORCreaturePheromoneMarker;
 
-UDELEGATE(BlueprintCallable) DECLARE_DYNAMIC_MULTICAST_SPARSE_DELEGATE_OneParam(FPheromonesAppliedSignature, AORCreaturePheromoneMarker*, TaskMarker);
+UDELEGATE(BlueprintCallable) DECLARE_DYNAMIC_MULTICAST_SPARSE_DELEGATE_OneParam(FPheromonesAppliedSignature, AORCreaturePheromoneMarker, OnPheromonesApplied, AORCreaturePheromoneMarker*, TaskMarker);
 

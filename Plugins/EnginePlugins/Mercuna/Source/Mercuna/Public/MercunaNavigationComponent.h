@@ -4,6 +4,8 @@
 #include "MercunaPawnUsageFlags.h"
 #include "MercunaNavigationComponent.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FMercunaMoveComplete);
+
 UCLASS(Abstract, Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class MERCUNA_API UMercunaNavigationComponent : public UActorComponent {
     GENERATED_BODY()

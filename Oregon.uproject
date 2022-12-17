@@ -79,11 +79,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "ElectronicNodes",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/5cb2a394d0c04e73891762be4cbd7216"
-		},
-		{
 			"Name": "LowEntryExtStdLib",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/846c2ad08f164f45b0335ecebf85361e"
@@ -162,11 +157,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "NodeGraphAssistant",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/d9baaaeadeaf41dcb52b3f6e134e9514"
-		},
-		{
 			"Name": "IdleOverrideTrack",
 			"Enabled": true
 		},
@@ -238,11 +228,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "MORT",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/f6a838d3c72b4d28b5635da50d3335e5"
-		},
-		{
 			"Name": "AnimationBudgetAllocator",
 			"Enabled": true
 		},
@@ -256,11 +241,6 @@
 		}
 	],
 	"TargetPlatforms": [
-		"WindowsNoEditor",
-		"XboxOneGDK",
-		"XSX",
-		"WinGDK",
-		"PS4",
-		"GDK"
+		"WindowsNoEditor"
 	]
 }

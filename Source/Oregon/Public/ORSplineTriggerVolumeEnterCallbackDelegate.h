@@ -5,5 +5,5 @@
 class AActor;
 class AORSplineTriggerVolume;
 
-UDELEGATE(BlueprintCallable) DECLARE_DYNAMIC_MULTICAST_SPARSE_DELEGATE_TwoParams(FORSplineTriggerVolumeEnterCallback, AActor*, SourceActor, AORSplineTriggerVolume*, SourceVolume);
+UDELEGATE(BlueprintCallable) DECLARE_DYNAMIC_MULTICAST_SPARSE_DELEGATE_OneParam(FORSplineTriggerVolumeEnterCallback, AActor, SourceActor, AORSplineTriggerVolume*, SourceVolume);
 

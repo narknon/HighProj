@@ -11,7 +11,7 @@ UCLASS(Blueprintable)
 class MERCUNA_API UEnvQueryTest_Mercuna3D_Reachable : public UMercuna3DQueryTest {
     GENERATED_BODY()
 public:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
     FAIDataProviderFloatValue MaxPathLength;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

@@ -9,7 +9,7 @@ UCLASS(Blueprintable)
 class OREGON_API UTransformData : public UDataAsset {
     GENERATED_BODY()
 public:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true), Category="Transform Data")
     TMap<TEnumAsByte<ETransformState>, FTransformInfo> TransformData;
     
     UTransformData();

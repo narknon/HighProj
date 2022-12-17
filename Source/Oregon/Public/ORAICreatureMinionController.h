@@ -3,11 +3,10 @@
 #include "ORAIController.h"
 #include "Engine/EngineTypes.h"
 #include "ORBTOverride.h"
-#include "OnCreatureMinionTaskCompletedDelegateDelegate.h"
-#include "OnCancelCreatureMinionRecallDelegateDelegate.h"
-#include "OnBeginCreatureMinionRecallDelegateDelegate.h"
 #include "GameplayTagContainer.h"
 #include "EORCreatureMinionTask.h"
+#include "OnBeginCreatureMinionRecallDelegateDelegate.h"
+#include "OnCancelCreatureMinionRecallDelegateDelegate.h"
 #include "ORCreatureMinionTaskChangedDelegateDelegate.h"
 #include "ORAICreatureMinionController.generated.h"
 
@@ -21,16 +20,16 @@ UCLASS(Blueprintable)
 class OREGON_API AORAICreatureMinionController : public AORAIController {
     GENERATED_BODY()
 public:
-    UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    UPROPERTY(BlueprintAssignable, meta=(AllowPrivateAccess=true))
     FOnBeginCreatureMinionRecallDelegate OnBeginCreatureMinionRecall;
     
-    UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    UPROPERTY(BlueprintAssignable, meta=(AllowPrivateAccess=true))
     FOnCancelCreatureMinionRecallDelegate OnCancelCreatureMinionRecall;
     
-    UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    UPROPERTY(BlueprintAssignable, meta=(AllowPrivateAccess=true))
     FOnCreatureMinionTaskCompletedDelegate OnCreatureMinionTaskCompleted;
     
-    UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    UPROPERTY(BlueprintAssignable, meta=(AllowPrivateAccess=true))
     FORCreatureMinionTaskChangedDelegate OnCreatureMinionTaskChanged;
     
 protected:
