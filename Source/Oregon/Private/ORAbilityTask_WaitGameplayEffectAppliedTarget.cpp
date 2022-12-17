@@ -1,0 +1,12 @@
+#include "ORAbilityTask_WaitGameplayEffectAppliedTarget.h"
+
+class UAbilitySystemComponent;
+class UORAbilityTask_WaitGameplayEffectAppliedTarget;
+
+UORAbilityTask_WaitGameplayEffectAppliedTarget* UORAbilityTask_WaitGameplayEffectAppliedTarget::ListenForGameplayEffectAppliedTarget(UAbilitySystemComponent* AbilitySystemComponent, FGameplayTagRequirements GameplayTagRequirements) {
+    return NULL;
+}
+
+UORAbilityTask_WaitGameplayEffectAppliedTarget::UORAbilityTask_WaitGameplayEffectAppliedTarget() {
+}
+

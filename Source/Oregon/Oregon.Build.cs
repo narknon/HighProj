@@ -1,0 +1,66 @@
+using UnrealBuildTool;
+
+public class Oregon : ModuleRules {
+    public Oregon(ReadOnlyTargetRules Target) : base(Target) {
+        PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+        bLegacyPublicIncludePaths = false;
+        ShadowVariableWarningLevel = WarningLevel.Warning;
+        
+        PublicDependencyModuleNames.AddRange(new string[] {
+            "AIModule",
+            "AkAudio",
+            "AnimGraphRuntime",
+            "AnimationBudgetAllocator",
+            "AnimationCore",
+            "AudioMixer",
+            "BTUtilityPlugin",
+            "BinkMediaPlayer",
+            "Chaos",
+            "CinematicCamera",
+            "Core",
+            "CoreUObject",
+            "DataRegistry",
+            "DeveloperSettings",
+            "DisableEyeAutomationTrack",
+            "EmotionSystem",
+            "Engine",
+            "GameplayAbilities",
+            "GameplayCameras",
+            "GameplayTags",
+            "GameplayTasks",
+            "Gauntlet",
+            "IdleOverrideTrack",
+            "InputCore",
+            "LevelSequence",
+            "LipFlap",
+            "LookAtTrack",
+            "MediaAssets",
+            "MediaUtils",
+            "Mercuna",
+            "Mercuna3DMovement",
+            "MovieScene",
+            "MovieSceneTracks",
+            "NavigationSystem",
+            "Niagara",
+            "NiagaraCore",
+            "NiagaraShader",
+            "OregonLoadingScreen",
+            "PhysicsCore",
+            "PropertyPath",
+            "SaveSystem",
+            "SignificanceManager",
+            "Slate",
+            "SlateCore",
+            "SquanchAbilitySystem",
+            "SquanchDeformer",
+            "SquanchDismember",
+            "SquanchInput",
+            "SquanchInventory",
+            "SquanchMouth",
+            "SquanchStatics",
+            "SquanchTheater",
+            "TemplateSequence",
+            "UMG",
+        });
+    }
+}

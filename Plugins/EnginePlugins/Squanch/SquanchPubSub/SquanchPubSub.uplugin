@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Squanch PubSub",
+	"Description": "Provides message batching and uploading to Google PubSub",
+	"Category": "Online",
+	"CreatedBy": "Squanch Games",
+	"CreatedByURL": "https://squanchgames.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "SquanchPubSub",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

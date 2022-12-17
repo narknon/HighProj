@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "DisableEyeAutomationTrack",
+	"Description": "DisableEyeAutomationTrack plugin. Custom sequencer tracks",
+	"Category": "Squanch",
+	"CreatedBy": "jshucker",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "DisableEyeAutomationTrack",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "SquanchTheater",
+			"Enabled": true
+		}
+	]
+}

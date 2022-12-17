@@ -1,0 +1,50 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "LevelPlanner",
+	"Description": "LevelPlanner plugin. Custom sequencer tracks",
+	"Category": "Squanch",
+	"CreatedBy": "kliao",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "LevelPlanner",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Wwise",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimMontageTrack",
+			"Enabled": true
+		},
+		{
+			"Name": "EmotionSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "SquanchTheater",
+			"Enabled": true
+		},
+		{
+			"Name": "SquanchMouth",
+			"Enabled": true
+		},
+		{
+			"Name": "SubtitleTrack",
+			"Enabled": true
+		}
+	]
+}

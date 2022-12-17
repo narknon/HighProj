@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "UE4.16-K2",
+	"FriendlyName": "BT Utility",
+	"Description": "Adds nodes for extending behavior tree with utility-based selection.",
+	"Category": "Kantan Dev",
+	"CreatedBy": "Kantan Dev",
+	"CreatedByURL": "http://kantandev.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "mailto:kantandev@gmail.com",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "BTUtilityPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Android"
+			]
+		}
+	]
+}
