@@ -3,7 +3,7 @@
 #include "DifficultyInt.generated.h"
 
 USTRUCT(BlueprintType)
-struct ENGINE_API FDifficultyInt {
+struct SQUANCHINVENTORY_API FDifficultyInt {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadOnly, EditAnywhere)

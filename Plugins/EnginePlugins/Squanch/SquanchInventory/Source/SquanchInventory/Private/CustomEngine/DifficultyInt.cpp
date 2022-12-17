@@ -1,4 +1,4 @@
-#include "DifficultyInt.h"
+#include "CustomEngine/DifficultyInt.h"
 
 FDifficultyInt::FDifficultyInt() {
     this->EasyVal = 0;

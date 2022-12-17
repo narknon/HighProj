@@ -3,7 +3,7 @@
 #include "Commandlets/Commandlet.h"
 #include "StaticMeshInfoCommandlet.generated.h"
 
-UCLASS(Blueprintable, NonTransient)
+UCLASS(Blueprintable, NonTransient, Config=Editor)
 class UStaticMeshInfoCommandlet : public UCommandlet {
     GENERATED_BODY()
 public:

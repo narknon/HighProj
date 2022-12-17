@@ -20,6 +20,6 @@ enum ETransformState {
     ETS_HouseIntro,
     ETS_HouseNoOffset,
     ETS_TransformMax,
-    ETS_MAX UMETA(Hidden),
+    MAX UMETA(Hidden),
 };
 
