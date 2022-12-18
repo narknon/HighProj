@@ -11,6 +11,7 @@ UMercuna3DTask_MoveTo* UMercuna3DTask_MoveTo::MoveTo(AAIController* Controller, 
     return NULL;
 }
 
-UMercuna3DTask_MoveTo::UMercuna3DTask_MoveTo() {
+UMercuna3DTask_MoveTo::UMercuna3DTask_MoveTo() : UAITask(FObjectInitializer::Get()) {
 }
+
 

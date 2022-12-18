@@ -12,6 +12,5 @@ enum class EORAICombatBehaviorStates : uint8 {
     ECB_CombatWait,
     ECB_CombatStandStill,
     ECB_Custom = 0xFF,
-    ECB_MAX UMETA(Hidden),
 };
 

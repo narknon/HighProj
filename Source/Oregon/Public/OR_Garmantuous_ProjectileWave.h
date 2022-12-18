@@ -7,6 +7,7 @@
 #include <CustomEngine/DifficultyFloat.h>
 
 #include "EORGarmProjectileMovementType.h"
+#include "CustomEngine/DifficultyInt.h"
 #include "OR_Garmantuous_ProjectileWave.generated.h"
 
 class UAkAudioEvent;

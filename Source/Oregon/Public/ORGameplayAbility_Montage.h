@@ -2,6 +2,7 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "ORGameplayAbility.h"
+#include "CustomEngine/DifficultyFloat.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=DifficultyFloat -FallbackName=DifficultyFloat
 #include "ORGameplayAbility_Montage.generated.h"
 

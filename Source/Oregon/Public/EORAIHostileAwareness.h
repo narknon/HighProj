@@ -11,6 +11,5 @@ enum class EORAIHostileAwareness : uint8 {
     EHA_Ambush,
     EHA_Count,
     EHA_None = 0xFF,
-    EHA_MAX UMETA(Hidden),
 };
 

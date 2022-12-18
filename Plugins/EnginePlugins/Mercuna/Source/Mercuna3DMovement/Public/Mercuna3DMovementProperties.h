@@ -3,6 +3,7 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=DifficultyFloat -FallbackName=DifficultyFloat
 #include "Mercuna3DMovementAccelerations.h"
 #include "Mercuna3DMovementWorldAccelerations.h"
+#include "CustomEngine/DifficultyFloat.h"
 #include "Mercuna3DMovementProperties.generated.h"
 
 USTRUCT(BlueprintType)
