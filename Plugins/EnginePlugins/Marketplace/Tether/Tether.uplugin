@@ -10,7 +10,6 @@
 	"DocsURL": "https://acren.github.io/TetherDocs/",
 	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/6af7e44eb9594b56b6530ca7a9ebf799",
 	"SupportURL": "https://acren.github.io/TetherDocs/support",
-	"EngineVersion": "4.27.2",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
