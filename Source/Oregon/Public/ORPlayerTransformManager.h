@@ -7,12 +7,12 @@
 #include "GameplayTagContainer.h"
 #include "EInventoryTransactionType.h"
 #include "ETransformState.h"
+#include "TransformData.h"
 #include "TransformStateChangedDelegate.h"
 #include "ORPlayerTransformManager.generated.h"
 
 class AActor;
 class ASQInventoryItem;
-class UTransformData;
 class AORPlayerCharacter;
 class UCurveFloat;
 

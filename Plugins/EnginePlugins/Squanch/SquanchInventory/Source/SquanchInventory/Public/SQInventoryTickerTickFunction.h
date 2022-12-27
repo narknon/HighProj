@@ -1,3 +1,4 @@
+/*
 #pragma once
 #include "CoreMinimal.h"
 #include "Engine/EngineBaseTypes.h"
@@ -9,4 +10,5 @@ struct FSQInventoryTickerTickFunction : public FTickFunction {
 public:
     SQUANCHINVENTORY_API FSQInventoryTickerTickFunction();
 };
+*/
 

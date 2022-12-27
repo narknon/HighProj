@@ -28,7 +28,7 @@ UORWidget_BossHealthBar* UORWidget_HUDMaster::GetBossHealthBar(EBossHealthBarTyp
 
 
 
-UORWidget_HUDPrompt* UORWidget_HUDMaster::CacheAndCreateHUDPromptWidget(TEnumAsByte<EPromptWidgetType> WidgetType) {
+UORWidget_HUDPrompt* UORWidget_HUDMaster::CacheAndCreateHUDPromptWidget(EPromptWidgetType WidgetType) {
     return NULL;
 }
 

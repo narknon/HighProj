@@ -68,7 +68,7 @@ public:
     void BP_UpdateVisibility();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void BP_StateChanged(TEnumAsByte<EPromptWidgetState> NewState, TEnumAsByte<EPromptWidgetState> OldState);
+    void BP_StateChanged(EPromptWidgetState NewState, EPromptWidgetState OldState);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void BP_Init();

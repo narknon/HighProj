@@ -1,5 +1,8 @@
 #include "ORGauntletControllerBase.h"
 
-UORGauntletControllerBase::UORGauntletControllerBase() {
+UORGauntletControllerBase::UORGauntletControllerBase() : UGauntletTestController(FObjectInitializer::Get())
+{
+	
 }
+
 

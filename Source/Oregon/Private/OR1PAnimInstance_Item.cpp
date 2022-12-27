@@ -10,7 +10,7 @@ bool UOR1PAnimInstance_Item::ShouldEndMontages() {
     return false;
 }
 
-void UOR1PAnimInstance_Item::OwnerItemEventFired(ASQInventoryItem* Item, FGameplayTag EventTag, FGameplayTag FireModeTag, TEnumAsByte<EInventoryTransactionType> TransactionType) {
+void UOR1PAnimInstance_Item::OwnerItemEventFired(ASQInventoryItem* Item, FGameplayTag EventTag, FGameplayTag FireModeTag, EInventoryTransactionType TransactionType) {
 }
 
 

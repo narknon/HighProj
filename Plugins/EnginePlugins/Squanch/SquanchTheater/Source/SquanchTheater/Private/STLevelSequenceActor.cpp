@@ -1,5 +1,6 @@
 #include "STLevelSequenceActor.h"
 
-ASTLevelSequenceActor::ASTLevelSequenceActor() {
+ASTLevelSequenceActor::ASTLevelSequenceActor() : ALevelSequenceActor(FObjectInitializer::Get())
+{
 }
 
