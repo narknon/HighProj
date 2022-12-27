@@ -154,3 +154,10 @@ Binaries/Win64/Harvestella-Win64-Shipping.target
 Build/WindowsNoEditor/ChunkLayerInfo/pakchunklayers.txt
 WindowsNoEditor/Engine/Content/SlateDebug/Fonts/LastResort.tps
 WindowsNoEditor/Manifest_DebugFiles_Win64.txt
+Binaries/Win64/EOSSDK-Win64-Shipping.dll
+Binaries/Win64/OpenImageDenoise.dll
+Binaries/Win64/tbb12.dll
+Binaries/Win64/Oregon.exe
+Binaries/Win64/Oregon.exp
+Binaries/Win64/Oregon.lib
+Binaries/Win64/Oregon.target
