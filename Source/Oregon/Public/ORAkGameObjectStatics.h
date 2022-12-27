@@ -1,7 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "AkGameplayTypes.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
-#include "EAkCurveInterpolation.h"
+
 #include "ORAkGameObjectStatics.generated.h"
 
 class UObject;

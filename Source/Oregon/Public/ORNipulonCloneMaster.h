@@ -8,6 +8,7 @@
 #include "GameplayTagContainer.h"
 #include "Engine/EngineTypes.h"
 #include "NipulonCloneEventDelegate.h"
+#include "CustomEngine/DifficultyFloat.h"
 #include "ORNipulonCloneMaster.generated.h"
 
 class UGameplayEffect;

@@ -7,7 +7,7 @@
 class UMovieSceneSection;
 
 UCLASS(Blueprintable)
-class SUBTITLETRACK_API USubtitleTrack : public UMovieSceneNameableTrack, public IMovieSceneTrackTemplateProducer {
+class SUBTITLETRACK_API USubtitleTrack : public UMovieSceneNameableTrack/*, public IMovieSceneTrackTemplateProducer*/ {
     GENERATED_BODY()
 public:
 private:

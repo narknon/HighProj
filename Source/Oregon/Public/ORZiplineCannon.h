@@ -38,7 +38,7 @@ protected:
     
 public:
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void BP_ZiplineCannonStateChanged(TEnumAsByte<EZiplineCannonState> OldState, TEnumAsByte<EZiplineCannonState> NewState);
+    void BP_ZiplineCannonStateChanged(TEnumAsByte<EZiplineCannonState> OldState, EZiplineCannonState NewState);
     
 };
 

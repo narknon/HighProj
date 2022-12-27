@@ -21,18 +21,16 @@
 #include "EORDirection2D.h"
 #include "EORHitReactionType.h"
 #include "EmotionStruct.h"
+#include "ORAttentionComponent.h"
+#include "ORCharacter.h"
+#include "SQInventoryItem.h"
+#include "STPossessableComponent.h"
 #include "OR3PAnimInstance.generated.h"
 
-class UObject;
-class ASQInventoryItem;
-class USTPossessableComponent;
-class AORCharacter;
-class UORAttentionComponent;
-class UAnimSequence;
-class UAnimMontage;
+
 
 UCLASS(Blueprintable, NonTransient)
-class UOR3PAnimInstance : public UAnimInstance, public ILookAtInterface, public IEmotionInterface, public ITalkingInterface, public ILipFlapInterface, public IIdleOverrideInterface, public IDisableEyeAutomationInterface {
+class UOR3PAnimInstance : public UAnimInstance/*, public ILookAtInterface, public IEmotionInterface, public ITalkingInterface, public ILipFlapInterface, public IIdleOverrideInterface, public IDisableEyeAutomationInterface*/ {
     GENERATED_BODY()
 public:
 protected:
@@ -154,14 +152,14 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bIsEmotionAllowed;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
+    /*UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     FLookAtStruct LookAtData;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     FLookAtStruct EyeLookAtData;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
-    FLipFlapStruct LipFlapData;
+    FLipFlapStruct LipFlapData;*/
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     bool bHasLookAtTarget;
@@ -172,13 +170,13 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     bool bDisableEyeAutomation;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
+    UPROPERTY(EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     FVector LookAtTarget;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
+    UPROPERTY(EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     FVector EyeLookAtTarget;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
+    UPROPERTY(EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     FVector BigEyeModeScale;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -187,11 +185,11 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FName TorsoBoneName;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    /*UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FLookAtSettings TorsoLookAtSettings;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    FLookAtSettings HeadLookAtSettings;
+    FLookAtSettings HeadLookAtSettings;*/
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bEnableTorsoLook;
@@ -265,7 +263,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     UAnimMontage* CurrentFlinchMontage;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
+    UPROPERTY(EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     FVector EvadeDirection;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
@@ -353,7 +351,7 @@ public:
     void OwnerSpawnedFromPool(AORCharacter* Character);
     
     UFUNCTION(BlueprintCallable)
-    void OwnerItemEventFired(ASQInventoryItem* Item, FGameplayTag EventTag, FGameplayTag FireModeTag, TEnumAsByte<EInventoryTransactionType> TransactionType);
+    void OwnerItemEventFired(ASQInventoryItem* Item, FGameplayTag EventTag, FGameplayTag FireModeTag, EInventoryTransactionType TransactionType);
     
     UFUNCTION(BlueprintCallable)
     void OwnerDiedEventFired(UObject* Killer, AORCharacter* Killed, const FHitResult& HitResult, const FGameplayTagContainer& DamageTags);
@@ -391,7 +389,7 @@ public:
     void K2_OwnerSpawnedFromPool();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void K2_OwnerItemEventFired(ASQInventoryItem* Item, FGameplayTag EventTag, FGameplayTag FireModeTag, TEnumAsByte<EInventoryTransactionType> TransactionType);
+    void K2_OwnerItemEventFired(ASQInventoryItem* Item, FGameplayTag EventTag, FGameplayTag FireModeTag, EInventoryTransactionType TransactionType);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void K2_OwnerDiedEventFired(UObject* Killer, const FHitResult& HitResult, const FGameplayTagContainer& DamageTags);

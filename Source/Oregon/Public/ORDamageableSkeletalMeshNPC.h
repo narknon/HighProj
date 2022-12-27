@@ -15,7 +15,7 @@ class UORTargetableComponent;
 class UDataTable;
 
 UCLASS(Blueprintable)
-class OREGON_API AORDamageableSkeletalMeshNPC : public AORBaseSkeletalMeshNPC, public IAbilitySystemInterface, public IGenericTeamAgentInterface, public IORDamageableInterface {
+class OREGON_API AORDamageableSkeletalMeshNPC : public AORBaseSkeletalMeshNPC/*, public IAbilitySystemInterface, public IGenericTeamAgentInterface, public IORDamageableInterface*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))

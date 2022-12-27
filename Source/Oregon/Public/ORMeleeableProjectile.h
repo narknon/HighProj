@@ -20,7 +20,7 @@ class UORDamageHandlerComponent_NoHealth;
 class UDataTable;
 
 UCLASS(Blueprintable)
-class OREGON_API AORMeleeableProjectile : public AORProjectile, public IAbilitySystemInterface, public IGenericTeamAgentInterface, public IORDamageableInterface {
+class OREGON_API AORMeleeableProjectile : public AORProjectile/*, public IAbilitySystemInterface, public IGenericTeamAgentInterface, public IORDamageableInterface*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))

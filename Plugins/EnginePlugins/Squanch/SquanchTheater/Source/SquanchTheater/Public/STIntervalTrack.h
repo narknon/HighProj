@@ -7,7 +7,7 @@
 class UMovieSceneSection;
 
 UCLASS(Blueprintable)
-class SQUANCHTHEATER_API USTIntervalTrack : public UMovieSceneNameableTrack, public IMovieSceneTrackTemplateProducer {
+class SQUANCHTHEATER_API USTIntervalTrack : public UMovieSceneNameableTrack/*, public IMovieSceneTrackTemplateProducer*/ {
     GENERATED_BODY()
 public:
 private:

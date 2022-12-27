@@ -4,12 +4,11 @@
 #include "EPromptWidgetType.h"
 #include "EHUDState.h"
 #include "EBossHealthBarType.h"
+#include "ORWidget_HUDPrompt.h"
+#include "ORWidget_InfoPanel.h"
 #include "ORWidget_HUDMaster.generated.h"
 
 class UHUDHelpTextWidget;
-class UORWidget;
-class UORWidget_InfoPanel;
-class UORWidget_HUDPrompt;
 class UORWidget_BossHealthBar;
 
 UCLASS(Blueprintable, EditInlineNew)
@@ -77,14 +76,14 @@ protected:
     UORWidget_InfoPanel* CreateInfoPanelWidget();
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    UORWidget_HUDPrompt* CreateHUDPromptWidget(TEnumAsByte<EPromptWidgetType> WidgetType);
+    UORWidget_HUDPrompt* CreateHUDPromptWidget(EPromptWidgetType WidgetType);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void CloseEquipmentWheel();
     
 public:
     UFUNCTION(BlueprintCallable)
-    UORWidget_HUDPrompt* CacheAndCreateHUDPromptWidget(TEnumAsByte<EPromptWidgetType> WidgetType);
+    UORWidget_HUDPrompt* CacheAndCreateHUDPromptWidget(EPromptWidgetType WidgetType);
     
 };
 

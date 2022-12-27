@@ -16,7 +16,7 @@ class UStaticMeshComponent;
 class UDataTable;
 
 UCLASS(Blueprintable)
-class AORBaseDamageable : public AActor, public IAbilitySystemInterface, public IGenericTeamAgentInterface, public IORDamageableInterface, public IOREffectsTargetInterface, public IORSignificanceInterface {
+class AORBaseDamageable : public AActor/*, public IAbilitySystemInterface, public IGenericTeamAgentInterface, public IORDamageableInterface, public IOREffectsTargetInterface, public IORSignificanceInterface*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))

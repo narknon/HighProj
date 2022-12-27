@@ -7,7 +7,7 @@
 class UMovieSceneSection;
 
 UCLASS(Blueprintable)
-class ANIMMONTAGETRACK_API UAnimMontageTrack : public UMovieSceneNameableTrack, public IMovieSceneTrackTemplateProducer {
+class ANIMMONTAGETRACK_API UAnimMontageTrack : public UMovieSceneNameableTrack/*, public IMovieSceneTrackTemplateProducer*/ {
     GENERATED_BODY()
 public:
 private:

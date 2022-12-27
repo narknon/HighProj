@@ -96,7 +96,7 @@ public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FORBaseGarmantuousPart2Character_StunDamageThresholdReached OnStunDamageThesholdReached;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
+    UPROPERTY(EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     FVector LeapTargetLocation;
     
     AORBaseGarmantuousPart2Character();

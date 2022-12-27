@@ -12,7 +12,7 @@ class UORPossessableComponent;
 class UORVocalizationComponent;
 
 UCLASS(Blueprintable)
-class AORDummyNPC : public AActor, public ISTPossessableInterface, public ISTSequenceActor {
+class AORDummyNPC : public AActor, public ISTPossessableInterface/*, public ISTSequenceActor*/ {
     GENERATED_BODY()
 public:
 protected:
@@ -35,8 +35,8 @@ public:
     
     
     // Fix for true pure virtual functions not being implemented
-    UFUNCTION(BlueprintCallable)
-    USTPossessableComponent* GetPossessableComponent() const override PURE_VIRTUAL(GetPossessableComponent, return NULL;);
+    /*UFUNCTION(BlueprintCallable)
+    USTPossessableComponent* GetPossessableComponent() const override PURE_VIRTUAL(GetPossessableComponent, return NULL;);*/
     
 };
 

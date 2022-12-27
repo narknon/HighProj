@@ -68,7 +68,7 @@ class UParticleSystem;
 class UPawnNoiseEmitterComponent;
 
 UCLASS(Blueprintable)
-class AORCharacter : public ACharacter, public IAbilitySystemInterface, public IGenericTeamAgentInterface, public IORDamageableInterface, public IOREffectsTargetInterface, public IORDamagerInterface, public ISTPossessableInterface, public IAISightTargetInterface, public ILookAtTargetInterface, public IGameplayTagAssetInterface, public IORInteractorInterface, public IORPossessedPawnAbilityInterface {
+class AORCharacter : public ACharacter/*, public IAbilitySystemInterface, public IGenericTeamAgentInterface, public IORDamageableInterface, public IOREffectsTargetInterface, public IORDamagerInterface, public ISTPossessableInterface, public IAISightTargetInterface, public ILookAtTargetInterface, public IGameplayTagAssetInterface, public IORInteractorInterface, public IORPossessedPawnAbilityInterface*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -476,7 +476,7 @@ public:
     
     
     // Fix for true pure virtual functions not being implemented
-    UFUNCTION(BlueprintCallable)
+    /*UFUNCTION(BlueprintCallable)
     USTPossessableComponent* GetPossessableComponent() const override PURE_VIRTUAL(GetPossessableComponent, return NULL;);
     
     UFUNCTION(BlueprintCallable)
@@ -489,7 +489,7 @@ public:
     bool HasAllMatchingGameplayTags(const FGameplayTagContainer& TagContainer) const override PURE_VIRTUAL(HasAllMatchingGameplayTags, return false;);
     
     UFUNCTION(BlueprintCallable)
-    void GetOwnedGameplayTags(FGameplayTagContainer& TagContainer) const override PURE_VIRTUAL(GetOwnedGameplayTags,);
+    void GetOwnedGameplayTags(FGameplayTagContainer& TagContainer) const override PURE_VIRTUAL(GetOwnedGameplayTags,);*/
     
 };
 

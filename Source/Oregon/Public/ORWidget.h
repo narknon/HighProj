@@ -7,8 +7,7 @@
 #include "ORWidget_OnStateChangedDelegate.h"
 #include "ORWidget.generated.h"
 
-class UORWidget;
-class UORGlobalEventPayload;
+
 
 UCLASS(Blueprintable, EditInlineNew, Config=Input)
 class OREGON_API UORWidget : public UUserWidget {

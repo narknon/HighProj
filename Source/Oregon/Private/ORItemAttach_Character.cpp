@@ -5,7 +5,7 @@
 class ASQInventoryItem;
 class AORCharacter;
 
-void AORItemAttach_Character::ParentItemEventFired(ASQInventoryItem* Item, FGameplayTag Event, FGameplayTag FireMode, TEnumAsByte<EInventoryTransactionType> TransactionType) {
+void AORItemAttach_Character::ParentItemEventFired(ASQInventoryItem* Item, FGameplayTag Event, FGameplayTag FireMode, EInventoryTransactionType TransactionType) {
 }
 
 AORCharacter* AORItemAttach_Character::GetOwningCharacter() {

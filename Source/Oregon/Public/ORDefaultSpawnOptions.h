@@ -4,7 +4,8 @@
 #include "GameplayTagContainer.h"
 #include "EORAttractionPointPathfindingGroup.h"
 #include "EORAIHostileAwareness.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=ESQDifficultyComparisionOperation -FallbackName=ESQDifficultyComparisionOperation
+#include "CustomEngine/ESQDifficultyComparisionOperation.h"
+#include "CustomEngine/ESQDifficultySetting.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=ESQDifficultySetting -FallbackName=ESQDifficultySetting
 #include "ORDefaultSpawnOptions.generated.h"
 

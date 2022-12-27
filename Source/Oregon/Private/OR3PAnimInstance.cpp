@@ -31,7 +31,7 @@ UAnimMontage* UOR3PAnimInstance::PickRandomMontageForHitResultDirection2D(const 
 void UOR3PAnimInstance::OwnerSpawnedFromPool(AORCharacter* Character) {
 }
 
-void UOR3PAnimInstance::OwnerItemEventFired(ASQInventoryItem* Item, FGameplayTag EventTag, FGameplayTag FireModeTag, TEnumAsByte<EInventoryTransactionType> TransactionType) {
+void UOR3PAnimInstance::OwnerItemEventFired(ASQInventoryItem* Item, FGameplayTag EventTag, FGameplayTag FireModeTag, EInventoryTransactionType TransactionType) {
 }
 
 void UOR3PAnimInstance::OwnerDiedEventFired(UObject* Killer, AORCharacter* Killed, const FHitResult& HitResult, const FGameplayTagContainer& DamageTags) {

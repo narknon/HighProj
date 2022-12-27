@@ -14,7 +14,7 @@ protected:
     UPROPERTY(EditAnywhere, Export)
     TWeakObjectPtr<USkeletalMeshComponent> KnifeyMesh;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
+    UPROPERTY(EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     FVector VFXOffset;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

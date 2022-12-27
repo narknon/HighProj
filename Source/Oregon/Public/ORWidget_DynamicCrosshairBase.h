@@ -33,7 +33,7 @@ public:
     void SetMinimalMode(bool bIsMinimal);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void OnTargetUpdated(bool bHasTarget, TEnumAsByte<ETeamAttitude::Type> TargetAttitude);
+    void OnTargetUpdated(bool bHasTarget, ETeamAttitude::Type TargetAttitude);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
     void OnSpreadUpdated(float CrosshairSpread);

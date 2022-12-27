@@ -1,6 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "BehaviorTree/Tasks/BTTask_Wait.h"
+#include "CustomEngine/DifficultyFloat.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=DifficultyFloat -FallbackName=DifficultyFloat
 #include "BTTask_ORWaitDifficulty.generated.h"
 

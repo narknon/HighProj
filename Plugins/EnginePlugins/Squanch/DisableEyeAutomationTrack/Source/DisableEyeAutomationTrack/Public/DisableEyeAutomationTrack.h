@@ -7,7 +7,7 @@
 class UMovieSceneSection;
 
 UCLASS(Blueprintable)
-class DISABLEEYEAUTOMATIONTRACK_API UDisableEyeAutomationTrack : public UMovieSceneNameableTrack, public IMovieSceneTrackTemplateProducer {
+class DISABLEEYEAUTOMATIONTRACK_API UDisableEyeAutomationTrack : public UMovieSceneNameableTrack/*, public IMovieSceneTrackTemplateProducer*/ {
     GENERATED_BODY()
 public:
 private:

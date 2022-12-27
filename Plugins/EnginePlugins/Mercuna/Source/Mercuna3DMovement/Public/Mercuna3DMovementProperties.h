@@ -3,15 +3,15 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=DifficultyFloat -FallbackName=DifficultyFloat
 #include "Mercuna3DMovementAccelerations.h"
 #include "Mercuna3DMovementWorldAccelerations.h"
-#include "CustomEngine/DifficultyFloat.h"
+/*#include "CustomEngine/DifficultyFloat.h"*/
 #include "Mercuna3DMovementProperties.generated.h"
 
 USTRUCT(BlueprintType)
 struct FMercuna3DMovementProperties {
     GENERATED_BODY()
 public:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    FDifficultyFloat MaxSpeed;
+    /*UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FDifficultyFloat MaxSpeed;*/
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FMercuna3DMovementAccelerations MaxAccelerations;

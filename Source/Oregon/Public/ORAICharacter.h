@@ -56,7 +56,7 @@ class UAnimMontage;
 class UCurveFloat;
 
 UCLASS(Blueprintable)
-class OREGON_API AORAICharacter : public AORCharacter, public IORBTInjectionInterface, public IORAIPawnInterface, public IORSignificanceInterface, public IORIKDataProviderInterface {
+class OREGON_API AORAICharacter : public AORCharacter/*, public IORBTInjectionInterface, public IORAIPawnInterface, public IORSignificanceInterface, public IORIKDataProviderInterface*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))

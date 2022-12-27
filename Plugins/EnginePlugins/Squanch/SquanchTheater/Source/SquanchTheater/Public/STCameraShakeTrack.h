@@ -10,7 +10,7 @@ class UMovieSceneSection;
 class UMatineeCameraShake;
 
 UCLASS(Blueprintable, MinimalAPI)
-class USTCameraShakeTrack : public UMovieSceneNameableTrack, public IMovieSceneTrackTemplateProducer {
+class USTCameraShakeTrack : public UMovieSceneNameableTrack/*, public IMovieSceneTrackTemplateProducer*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

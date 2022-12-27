@@ -1,6 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "ORFireLoop_EnemyBase.h"
+#include "CustomEngine/DifficultyFloat.h"
+#include "CustomEngine/DifficultyInt.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=DifficultyFloat -FallbackName=DifficultyFloat
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=DifficultyInt -FallbackName=DifficultyInt
 #include "ORFireLoop_Enemy.generated.h"

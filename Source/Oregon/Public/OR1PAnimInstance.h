@@ -23,7 +23,7 @@ class AORPlayerCharacter;
 class UAnimSequence;
 
 UCLASS(Blueprintable, NonTransient)
-class OREGON_API UOR1PAnimInstance : public UAnimInstance, public ILookAtInterface, public IEmotionInterface, public ITalkingInterface {
+class OREGON_API UOR1PAnimInstance : public UAnimInstance/*, public ILookAtInterface, public IEmotionInterface, public ITalkingInterface*/ {
     GENERATED_BODY()
 public:
 protected:
@@ -121,7 +121,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     bool bHasEyeLookAtTarget;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
+    UPROPERTY(EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     FVector LookAtTarget;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

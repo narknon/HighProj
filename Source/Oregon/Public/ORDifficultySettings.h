@@ -1,5 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "CustomEngine/DifficultyFloat.h"
 #include "Engine/DeveloperSettings.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=DifficultyFloat -FallbackName=DifficultyFloat
 #include "ORDifficultySettings.generated.h"

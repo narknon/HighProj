@@ -1,6 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "ORWorldSubsystem.h"
+#include "CustomEngine/DifficultyFloat.h"
+#include "CustomEngine/DifficultyInt.h"
+#include "CustomEngine/ESQDifficultyComparisionOperation.h"
+#include "CustomEngine/ESQDifficultySetting.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=DifficultyFloat -FallbackName=DifficultyFloat
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=DifficultyInt -FallbackName=DifficultyInt
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=ESQDifficultyComparisionOperation -FallbackName=ESQDifficultyComparisionOperation

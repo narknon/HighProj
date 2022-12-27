@@ -4,6 +4,7 @@
 #include "ORAIBossCharacter.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=DifficultyFloat -FallbackName=DifficultyFloat
 #include "GameplayTagContainer.h"
+#include "CustomEngine/DifficultyFloat.h"
 #include "ORBaseDouglasCharacter.generated.h"
 
 class UNiagaraComponent;

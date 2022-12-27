@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "AkGameplayTypes.h"
 #include "Subsystems/GameInstanceSubsystem.h"
 #include "SyncedMovieData.h"
 #include "GameplayTagContainer.h"
-#include "EAkCallbackType.h"
 #include "MarkerTriggeredDelegateDelegate.h"
 #include "ORSyncedMovieSubsystem.generated.h"
 

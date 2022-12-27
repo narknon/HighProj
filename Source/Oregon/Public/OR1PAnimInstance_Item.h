@@ -187,10 +187,10 @@ public:
     
 protected:
     UFUNCTION(BlueprintCallable)
-    void OwnerItemEventFired(ASQInventoryItem* Item, FGameplayTag EventTag, FGameplayTag FireModeTag, TEnumAsByte<EInventoryTransactionType> TransactionType);
+    void OwnerItemEventFired(ASQInventoryItem* Item, FGameplayTag EventTag, FGameplayTag FireModeTag, EInventoryTransactionType TransactionType);
     
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    bool K2_OwnerItemEventFired(ASQInventoryItem* Item, FGameplayTag EventTag, FGameplayTag FireModeTag, TEnumAsByte<EInventoryTransactionType> TransactionType);
+    bool K2_OwnerItemEventFired(ASQInventoryItem* Item, FGameplayTag EventTag, FGameplayTag FireModeTag, EInventoryTransactionType TransactionType);
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     AORFireableInventoryItem* GetParentItem();

@@ -7,7 +7,7 @@
 class UMovieSceneSection;
 
 UCLASS(Blueprintable)
-class SQUANCHMOUTH_API USquanchMouthAnimTrack : public UMovieSceneNameableTrack, public IMovieSceneTrackTemplateProducer {
+class SQUANCHMOUTH_API USquanchMouthAnimTrack : public UMovieSceneNameableTrack/*, public IMovieSceneTrackTemplateProducer*/ {
     GENERATED_BODY()
 public:
 private:

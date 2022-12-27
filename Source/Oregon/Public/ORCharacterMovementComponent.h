@@ -87,7 +87,7 @@ protected:
     UPROPERTY(EditAnywhere, Transient)
     TWeakObjectPtr<AActor> ActorTweenGoal;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
+    UPROPERTY(EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     FVector ActorTweenGoalLocalOffset;
     
 public:

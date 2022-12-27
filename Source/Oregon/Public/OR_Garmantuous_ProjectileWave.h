@@ -4,9 +4,10 @@
 #include "UObject/NoExportTypes.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=DifficultyFloat -FallbackName=DifficultyFloat
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=DifficultyInt -FallbackName=DifficultyInt
-#include <CustomEngine/DifficultyFloat.h>
+/*#include <CustomEngine/DifficultyFloat.h>*/
 
 #include "EORGarmProjectileMovementType.h"
+#include "CustomEngine/DifficultyFloat.h"
 #include "CustomEngine/DifficultyInt.h"
 #include "OR_Garmantuous_ProjectileWave.generated.h"
 

@@ -3,6 +3,6 @@
 void USTLevelSequencePlayer::ForceStop() {
 }
 
-USTLevelSequencePlayer::USTLevelSequencePlayer() {
+USTLevelSequencePlayer::USTLevelSequencePlayer() : ULevelSequencePlayer(FObjectInitializer::Get()) {
 }
 

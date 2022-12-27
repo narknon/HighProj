@@ -7,7 +7,7 @@
 class UMovieSceneSection;
 
 UCLASS(Blueprintable)
-class LIPFLAP_API ULipFlapTrack : public UMovieSceneNameableTrack, public IMovieSceneTrackTemplateProducer {
+class LIPFLAP_API ULipFlapTrack : public UMovieSceneNameableTrack/*, public IMovieSceneTrackTemplateProducer*/ {
     GENERATED_BODY()
 public:
 private:

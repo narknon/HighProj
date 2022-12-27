@@ -14,7 +14,7 @@ class AORCharacter;
 class UORPossessableComponent;
 
 UCLASS(Blueprintable)
-class OREGON_API AORItemAttach_Character : public ASQItemAttachment, public ISTPossessableInterface, public ISTSequenceActor {
+class OREGON_API AORItemAttach_Character : public ASQItemAttachment/*, public ISTPossessableInterface*//*, public ISTSequenceActor*/ {
     GENERATED_BODY()
 public:
 protected:
@@ -39,7 +39,7 @@ public:
     
     AORItemAttach_Character();
     UFUNCTION(BlueprintCallable)
-    void ParentItemEventFired(ASQInventoryItem* Item, FGameplayTag Event, FGameplayTag FireMode, TEnumAsByte<EInventoryTransactionType> TransactionType);
+    void ParentItemEventFired(ASQInventoryItem* Item, FGameplayTag Event, FGameplayTag FireMode, EInventoryTransactionType TransactionType);
     
 protected:
     UFUNCTION(BlueprintCallable)
@@ -47,12 +47,12 @@ protected:
     
 public:
     UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-    void BPParentItemEventFired(ASQInventoryItem* Item, FGameplayTag Event, FGameplayTag FireMode, TEnumAsByte<EInventoryTransactionType> TransactionType);
+    void BPParentItemEventFired(ASQInventoryItem* Item, FGameplayTag Event, FGameplayTag FireMode, EInventoryTransactionType TransactionType);
     
     
     // Fix for true pure virtual functions not being implemented
-    UFUNCTION(BlueprintCallable)
-    USTPossessableComponent* GetPossessableComponent() const override PURE_VIRTUAL(GetPossessableComponent, return NULL;);
+    /*UFUNCTION(BlueprintCallable)
+    USTPossessableComponent* GetPossessableComponent() const override PURE_VIRTUAL(GetPossessableComponent, return NULL;);*/
     
 };
 

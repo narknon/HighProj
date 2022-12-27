@@ -7,7 +7,7 @@
 class UMovieSceneSection;
 
 UCLASS(Blueprintable)
-class IDLEOVERRIDETRACK_API UIdleOverrideTrack : public UMovieSceneNameableTrack, public IMovieSceneTrackTemplateProducer {
+class IDLEOVERRIDETRACK_API UIdleOverrideTrack : public UMovieSceneNameableTrack/*, public IMovieSceneTrackTemplateProducer*/ {
     GENERATED_BODY()
 public:
 private:

@@ -7,7 +7,7 @@
 class UMovieSceneSection;
 
 UCLASS(Blueprintable)
-class LOOKATTRACK_API ULookAtTrack : public UMovieSceneNameableTrack, public IMovieSceneTrackTemplateProducer {
+class LOOKATTRACK_API ULookAtTrack : public UMovieSceneNameableTrack/*, public IMovieSceneTrackTemplateProducer*/ {
     GENERATED_BODY()
 public:
 private:

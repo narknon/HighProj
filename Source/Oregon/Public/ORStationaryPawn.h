@@ -21,7 +21,7 @@ class UCapsuleComponent;
 class UDataTable;
 
 UCLASS(Blueprintable)
-class OREGON_API AORStationaryPawn : public APawn, public IAbilitySystemInterface, public IGenericTeamAgentInterface, public IORAIPawnInterface, public IORPossessedPawnAbilityInterface {
+class OREGON_API AORStationaryPawn : public APawn/*, public IAbilitySystemInterface, public IGenericTeamAgentInterface, public IORAIPawnInterface, public IORPossessedPawnAbilityInterface*/ {
     GENERATED_BODY()
 public:
 protected:

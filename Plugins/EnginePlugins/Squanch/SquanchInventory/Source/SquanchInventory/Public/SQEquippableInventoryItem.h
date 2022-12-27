@@ -12,7 +12,7 @@ class USQItemEquipPayload;
 class ASQItemAttachment;
 
 UCLASS(Blueprintable)
-class SQUANCHINVENTORY_API ASQEquippableInventoryItem : public ASQInventoryItem, public IAbilitySystemInterface {
+class SQUANCHINVENTORY_API ASQEquippableInventoryItem : public ASQInventoryItem/*, public IAbilitySystemInterface*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

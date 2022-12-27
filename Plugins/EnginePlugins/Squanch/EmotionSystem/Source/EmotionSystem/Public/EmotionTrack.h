@@ -7,7 +7,7 @@
 class UMovieSceneSection;
 
 UCLASS(Blueprintable)
-class EMOTIONSYSTEM_API UEmotionTrack : public UMovieSceneNameableTrack, public IMovieSceneTrackTemplateProducer {
+class EMOTIONSYSTEM_API UEmotionTrack : public UMovieSceneNameableTrack/*, public IMovieSceneTrackTemplateProducer*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

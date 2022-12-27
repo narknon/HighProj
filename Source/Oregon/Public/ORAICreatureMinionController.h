@@ -7,6 +7,7 @@
 #include "EORCreatureMinionTask.h"
 #include "OnBeginCreatureMinionRecallDelegateDelegate.h"
 #include "OnCancelCreatureMinionRecallDelegateDelegate.h"
+#include "OnCreatureMinionTaskCompletedDelegateDelegate.h"
 #include "ORCreatureMinionTaskChangedDelegateDelegate.h"
 #include "ORAICreatureMinionController.generated.h"
 
@@ -20,7 +21,7 @@ UCLASS(Blueprintable)
 class OREGON_API AORAICreatureMinionController : public AORAIController {
     GENERATED_BODY()
 public:
-    UPROPERTY(BlueprintAssignable, meta=(AllowPrivateAccess=true))
+    /*UPROPERTY(BlueprintAssignable, meta=(AllowPrivateAccess=true))
     FOnBeginCreatureMinionRecallDelegate OnBeginCreatureMinionRecall;
     
     UPROPERTY(BlueprintAssignable, meta=(AllowPrivateAccess=true))
@@ -30,7 +31,7 @@ public:
     FOnCreatureMinionTaskCompletedDelegate OnCreatureMinionTaskCompleted;
     
     UPROPERTY(BlueprintAssignable, meta=(AllowPrivateAccess=true))
-    FORCreatureMinionTaskChangedDelegate OnCreatureMinionTaskChanged;
+    FORCreatureMinionTaskChangedDelegate OnCreatureMinionTaskChanged;*/
     
 protected:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

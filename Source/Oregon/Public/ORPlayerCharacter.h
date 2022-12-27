@@ -42,6 +42,7 @@
 #include "PlayerTeleportedEventDelegate.h"
 #include "AnchorPullEventDelegate.h"
 #include "PlayerJumpedDelegate.h"
+#include "CustomEngine/DifficultyInt.h"
 #include "ORPlayerCharacter.generated.h"
 
 class UObject;
@@ -74,7 +75,7 @@ class UWidgetInteractionComponent;
 class UDataTable;
 
 UCLASS(Blueprintable)
-class OREGON_API AORPlayerCharacter : public AORCharacter, public ISQFiringResultResponderInterface, public ISQProjectileImpactInterface {
+class OREGON_API AORPlayerCharacter : public AORCharacter/*, public ISQFiringResultResponderInterface, public ISQProjectileImpactInterface*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))

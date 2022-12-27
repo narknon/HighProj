@@ -29,6 +29,7 @@
 #include "ORAIMainTargetActorChangeDelegate.h"
 #include "ORAIScriptCommandListChangeDelegate.h"
 #include "ORAIHostileAwarenessChangeDelegate.h"
+#include "CustomEngine/DifficultyFloat.h"
 #include "ORAIController.generated.h"
 
 class UObject;
@@ -46,7 +47,7 @@ class AOREncounterManager;
 class UBehaviorTree;
 
 UCLASS(Abstract, Blueprintable)
-class OREGON_API AORAIController : public AAIController, public IORAttackTokenConsumerInterface {
+class OREGON_API AORAIController : public AAIController/*, public IORAttackTokenConsumerInterface*/ {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -137,10 +138,10 @@ protected:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     float FocalPointLerpAlpha;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
+    UPROPERTY(EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     FVector FocalPointLerpStart;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
+    UPROPERTY(EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     FVector FocalPointLerpEnd;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
