@@ -1,6 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Engine/PointLight.h"
+#include "GameFramework/Actor.h"
 #include "ORDesignerPointLight.generated.h"
 
 UCLASS(Blueprintable)

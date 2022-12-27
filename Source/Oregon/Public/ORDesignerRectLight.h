@@ -1,6 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Engine/RectLight.h"
+#include "GameFramework/Actor.h"
 #include "ORDesignerRectLight.generated.h"
 
 UCLASS(Blueprintable)
