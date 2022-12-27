@@ -6,6 +6,7 @@ void UORGauntletController::StopProfiling() {
 void UORGauntletController::StartTesting() {
 }
 
-UORGauntletController::UORGauntletController() {
+UORGauntletController::UORGauntletController() : UGauntletTestController(FObjectInitializer::Get()) {
 }
+
 

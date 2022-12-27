@@ -4,7 +4,15 @@
 #include "ORDesignerSpotLight.generated.h"
 
 UCLASS(Blueprintable)
-class OREGON_API AORDesignerSpotLight : public ASpotLight {
+class OREGON_API AORSpotLight : public AActor {
+    GENERATED_BODY()
+public:
+
+};
+
+
+UCLASS(Blueprintable)
+class OREGON_API AORDesignerSpotLight : public AORSpotLight {
     GENERATED_BODY()
 public:
     AORDesignerSpotLight();

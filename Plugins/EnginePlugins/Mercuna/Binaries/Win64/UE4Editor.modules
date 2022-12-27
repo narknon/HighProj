@@ -1,0 +1,8 @@
+{
+	"BuildId": "17155196",
+	"Modules": 
+	{
+		"Mercuna": "UE4Editor-Mercuna.dll",
+		"Mercuna3DMovement": "UE4Editor-Mercuna3DMovement.dll"
+	}
+}
